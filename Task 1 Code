@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Lemon Drink</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a nice color palette */
+        :root {
+            --primary-color: #FFF9C4;
+            --secondary-color: #FFD54F;
+            --accent-color: #FFB300;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: var(--text-color);
+            background-color: var(--primary-color);
+        }
+
+        /* Header section */
+        header {
+            background-color: var(--secondary-color);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            font-size: 36px;
+        }
+
+        /* Main content section */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        /* Footer section */
+        footer {
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Summer Lemon Drink</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>Beat the summer heat with our refreshing lemon drink! Made with freshly squeezed lemons, it's the perfect thirst-quencher for those hot days.</p>
+        </section>
+
+        <section>
+            <h2>Ingredients</h2>
+            <p>Our lemon drink is made with only the finest ingredients:</p>
+            <ul>
+                <li>Fresh lemons</li>
+                <li>Water</li>
+                <li>Sugar (or honey for a healthier option)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How to Order</h2>
+            <p>Visit our store or call us to place your order. We'll have your refreshing lemon drink ready for pickup or delivery.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Summer Lemon Drink</p>
+    </footer>
+</body>
+</html>
